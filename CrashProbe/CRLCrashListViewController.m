@@ -156,7 +156,7 @@
 		NSTableCellView *view = [outlineView makeViewWithIdentifier:@"header" owner:self];
 		
 		view.textField.stringValue = item;
-		view.textField.textColor = [NSColor redColor];
+		//view.textField.textColor = [NSColor redColor];
 		return view;
 	}
 	else if ([item isKindOfClass:[CRLCrash class]])
